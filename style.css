@@ -1,86 +1,89 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1,6;
-    margin: 0;
-    padding: 0;
+  body {
+  font-family: Arial, sans-serif;
+  line-height: 1,6;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: plum;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+
+nav {
+  background-color: purple;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+
+nav a {
+  color: plum;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+
+nav a:hover {
+  background-color: rgb(228, 205, 228);
+  color: black;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+
+footer {
+  background-color: plum;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+/* Estilos específicos para secciones */
+section {
+  margin-bottom: 2rem;
+}
+
+
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid purple;
+  padding-bottom: 0.5rem;
+}
+
+
+p {
+  margin-top: 0;
+}
+  
+  img {
+    width: 50%;
   }
-  
-  
-  header {
-    background-color: plum;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  
-  h1 {
-    margin: 0;
-  }
-  
-  
-  nav {
-    background-color: purple;
-    padding: 0.5rem;
-    text-align: center;
-  }
-  
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  nav li {
-    display: inline-block;
-    margin: 0 1rem;
-  }
-  
-  
-  nav a {
-    color: plum;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  
-  
-  nav a:hover {
-    background-color: plum;
-  }
-  
-  
-  main {
-    padding: 2rem;
-  }
-  
-  
-  footer {
-    background-color: plum;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  
-  /* Estilos específicos para secciones */
-  section {
-    margin-bottom: 2rem;
-  }
-  
-  
-  h2 {
-    margin-top: 0;
-    border-bottom: 1px solid purple;
-    padding-bottom: 0.5rem;
-  }
-  
-  
-  p {
-    margin-top: 0;
-  }
-  
-  
